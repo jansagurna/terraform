@@ -26,3 +26,16 @@ Step 3:
 docker-compose run --rm tf validate
 ```
 Check if the File is valid and everything is fine
+\
+Step 4:
+```
+docker-compose run --rm tf plan "name"
+```
+Planning if everything will work fine
+\
+Step 5:
+```
+docker-compose run --rm tf apply "name"
+```
+Run the Code
+\

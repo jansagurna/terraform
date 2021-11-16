@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "webServer" {
-  ami           = "ami-0323c3dd2da7fb37d" // AWS Linux 2
+  ami           = "ami-030e490c34394591b" // AWS Linux 2
   instance_type = "t2.micro"
-  key_name      = "NEED HERE" // Key Name from EC2 here for authentication
+  key_name      = "janDerBoss" // Key Name from EC2 here for authentication
 
   security_groups = [aws_security_group.allow_ssh.name]
 
