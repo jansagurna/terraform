@@ -38,4 +38,3 @@ Step 5:
 docker-compose run --rm tf apply "name"
 ```
 Run the Code
-\
